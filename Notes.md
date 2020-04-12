@@ -53,9 +53,9 @@
 
 
 
-https://codeforces.com/blog/entry/21344
-Common time complexities
 
+# Common time complexities
+https://codeforces.com/blog/entry/21344
 Let n be the main variable in the problem.
 
     If n ≤ 12, the time complexity can be O(n!).
