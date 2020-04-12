@@ -1,15 +1,16 @@
 # VIM
-* To yank all from Vim: %y+
+* To yank all from Vim: 
+	* %y+
 
 * To yank certain lines from Vim:
 	* Go into Visual Line by Shift+V
 	* Highlight the lines
 	* Type "*y
 
-To merge two lines together on same line:
-	Visual line mode
-	Select the lines
-	then type Shift+J
+* To merge two lines together on same line:
+	* Visual line mode
+	* Select the lines
+	* then type Shift+J
 
 
 
@@ -17,37 +18,37 @@ To merge two lines together on same line:
 
 # C++ Common routines
 
-Insert to beginning of vector
-	myVector.insert(myVector.begin(), valueTobeEntered)
+* Insert to beginning of vector
+	* myVector.insert(myVector.begin(), valueTobeEntered)
 
-Insert element at an index of vector
-	myVector.insert(myVector.begin() + index, valueToBeEntered);
+* Insert element at an index of vector
+	* myVector.insert(myVector.begin() + index, valueToBeEntered);
 
-Erase element at an index of vector
-	myVector.erase(myVector.begin() + index);
+* Erase element at an index of vector
+	* myVector.erase(myVector.begin() + index);
 
-Remove last element in vector
-	myVector.pop_back();
+* Remove last element in vector
+	* myVector.pop_back();
 
-Populate a vector from n to m
-	Create vector with initialize size
-		vector<type> myVector(n);
-	Populate up to m
-		std::iota (myVector.begin(), myVector.end(), m);
+* Populate a vector from n to m
+	* Create vector with initialize size
+		* vector<type> myVector(n);
+	* Populate up to m
+		* std::iota (myVector.begin(), myVector.end(), m);
 
-Update each value in vector
+* Update each value in vector
 	for (double &d : myVector) {
 		d += 1.0;
 	}
 
-Check if a string s1 is a substring of string s2
+* Check if a string s1 is a substring of string s2
 
 	if (s2.find(s1) != npos) {
 	}
 
-When checking the columns and rows of matrix, use isalpha on each character so that garbage characters won't be scanned.
-check rows by matrix[i][j]
-check columns by matrix[j][i]
+* When checking the columns and rows of matrix, use isalpha on each character so that garbage characters won't be scanned.
+	* check rows by matrix[i][j]
+ 	* check columns by matrix[j][i]
 
 
 
