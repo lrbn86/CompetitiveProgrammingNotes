@@ -1,13 +1,12 @@
 # VIM
-To yank all from Vim:
-	%y+
+*To yank all from Vim: %y+
 
-To yank certain lines from Vim:
-	Go into Visual Line by Shift+V
-	Highlight the lines
-	Type "*y
+*To yank certain lines from Vim:
+	**Go into Visual Line by Shift+V
+	**Highlight the lines
+	**Type "*y
 
-To merge two lines together:
+To merge two lines together on same line:
 	Visual line mode
 	Select the lines
 	then type Shift+J
