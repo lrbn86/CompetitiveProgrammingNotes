@@ -1,3 +1,4 @@
+# VIM
 To yank all from Vim:
 	%y+
 
@@ -6,9 +7,16 @@ To yank certain lines from Vim:
 	Highlight the lines
 	Type "*y
 
+To merge two lines together:
+	Visual line mode
+	Select the lines
+	then type Shift+J
 
 
-Common routines
+
+
+
+# C++ Common routines
 
 Insert to beginning of vector
 	myVector.insert(myVector.begin(), valueTobeEntered)
@@ -37,6 +45,10 @@ Check if a string s1 is a substring of string s2
 
 	if (s2.find(s1) != npos) {
 	}
+
+When checking the columns and rows of matrix, use isalpha on each character so that garbage characters won't be scanned.
+check rows by matrix[i][j]
+check columns by matrix[j][i]
 
 
 
