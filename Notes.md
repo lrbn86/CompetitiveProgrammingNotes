@@ -49,7 +49,12 @@
 * When checking the columns and rows of matrix, use isalpha on each character so that garbage characters won't be scanned.
 	* check rows by matrix[i][j]
  	* check columns by matrix[j][i]
-
+* Check if there are any duplicate characters inside a string, S
+	* Convert string to a set; set<char> a (s.begin(), s.end())
+	* Convert string to a vector; vector<char> b (s.begin(), s.end())
+	* Compare set's size() and vector's size()
+	* If they are equal, there are no duplicates
+	* If they are not equal, there are duplicates
 
 
 
