@@ -56,7 +56,10 @@
 	* If they are equal, there are no duplicates
 	* If they are not equal, there are duplicates
 
-
+* Count the number of occurrences of a substring in a string, S
+	* size_t p = S.find(substring);
+	* while (p != string::npos)
+	* p = s.find(substring, p + 1); // Specifying and incrementing 2nd arg will prevent from counting prev
 
 
 # Common time complexities
