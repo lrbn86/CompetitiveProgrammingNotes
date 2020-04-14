@@ -62,7 +62,8 @@
 	* p = s.find(substring, p + 1); // Specifying and incrementing 2nd arg will prevent from counting prev
 * Count the number of occurrences of an element in a vector
 	* std::count(myVector.begin(), myVector.end(), element);
-
+* When using stringstream, use while(ss >> word) instead of just (ss) because it would read in a weird extra character
+	* We can concatenate strings together by space. Make sure to check that we don't add an extra space at the end by checking if (i < words.size() - 1)
 
 # Common time complexities
 We can get away with a higher time complexity with smaller input size
