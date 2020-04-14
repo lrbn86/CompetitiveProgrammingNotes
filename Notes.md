@@ -60,6 +60,8 @@
 	* size_t p = S.find(substring);
 	* while (p != string::npos)
 	* p = s.find(substring, p + 1); // Specifying and incrementing 2nd arg will prevent from counting prev
+* Count the number of occurrences of an element in a vector
+	* std::count(myVector.begin(), myVector.end(), element);
 
 
 # Common time complexities
