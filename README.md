@@ -11,7 +11,11 @@
 	* Visual line mode
 	* Select the lines
 	* then type Shift+J
-
+* Windows
+	* C++ -- :w | ! cls && g++ -std=c++17 % -o %:r && %:r.exe
+	* Python -- :w | ! cls && python %:r.py 
+* Mac
+	* C++ -- :w | clear; g++ -std=c++17 % -o %:r && ./%:r
 
 
 
