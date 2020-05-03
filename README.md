@@ -72,6 +72,7 @@
 * When concatenating a character to a string, we can easily do s += c, where s is the string and c is character
 	* However, we cannot do s += c + s.substr(1) because '+' cannot add together char and basic_string
 	* So we need to do s += c first and then s += s.substr(1)
+* Convert char like '49' to an integer by subtracting by '0' or 48. So, '49' - '0' = 49
 
 # Common time complexities
 We can get away with a higher time complexity with smaller input size
