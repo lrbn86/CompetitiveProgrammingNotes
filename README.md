@@ -68,6 +68,10 @@
 	* std::count(myVector.begin(), myVector.end(), element);
 * When using stringstream, use while(ss >> word) instead of just (ss) because it would read in a weird extra character
 	* We can concatenate strings together by space. Make sure to check that we don't add an extra space at the end by checking if (i < words.size() - 1)
+* When concatenating an integer to a string, the int must be converted using to_string(n), where n is the int.
+* When concatenating a character to a string, we can easily do s += c, where s is the string and c is character
+	* However, we cannot do s += c + s.substr(1) because '+' cannot add together char and basic_string
+	* So we need to do s += c first and then s += s.substr(1)
 
 # Common time complexities
 We can get away with a higher time complexity with smaller input size
