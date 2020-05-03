@@ -77,8 +77,8 @@
 We can get away with a higher time complexity with smaller input size
 As input size gets bigger, we need to be careful and try to strive for O(n) or O(log(n) complexity.
 
-https://codeforces.com/blog/entry/21344 __
-Let n be the main variable in the problem.
+https://codeforces.com/blog/entry/21344  
+Let n be the main variable in the problem.  
 
     If n ≤ 12, the time complexity can be O(n!).
     If n ≤ 25, the time complexity can be O(2^n).
